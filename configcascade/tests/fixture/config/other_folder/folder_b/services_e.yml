@@ -1,0 +1,5 @@
+services:
+  driver:
+    class: felix.services.Driver
+    arguments:
+      - "{{ driver.complete_name }}"

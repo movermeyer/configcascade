@@ -1,0 +1,27 @@
+server_adapter: ~
+
+server:
+  foo: bar
+
+error_handler: felix.handler.DefaultErrorHandler
+
+imports:
+  - services_b.yml
+  - parameters.yml
+  - extra_config.yml
+
+debug: false
+
+routes:
+  hello:
+    path: /hello/{name}
+    controller: felix.HelloController
+  my_controller_with_service:
+    path: /my_controller/with/service
+    controller: felix.SomeController
+
+services:
+  car:
+    class: felix.services.Car
+    arguments:
+      - "@driver"
