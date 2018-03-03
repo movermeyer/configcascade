@@ -7,11 +7,11 @@ configcascade
 .. image:: https://coveralls.io/repos/felixcarmona/configcascade/badge.png?branch=master
     :target: https://coveralls.io/r/felixcarmona/configcascade?branch=master
 
-.. image:: https://pypip.in/d/configcascade/badge.png
+.. image:: https://img.shields.io/pypi/dm/configcascade.svg
     :target: https://pypi.python.org/pypi/configcascade/
     :alt: Downloads
 
-.. image:: https://pypip.in/v/configcascade/badge.png
+.. image:: https://img.shields.io/pypi/v/configcascade.svg
     :target: https://pypi.python.org/pypi/configcascade/
     :alt: Latest Version
 
